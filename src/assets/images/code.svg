@@ -1,0 +1,18 @@
+
+<svg width="37px" height="22px" viewBox="0 0 37 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5A5A5A" offset="0%"></stop>
+            <stop stop-color="#575757" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-19" transform="translate(1.000000, 0.000000)" stroke="url(#linearGradient-1)" stroke-width="2">
+            <polyline id="Path-70" points="11.5767535 2.56946685 0.647479722 10.7847334 11.6921411 19"></polyline>
+            <polyline id="Path-70" transform="translate(28.169810, 10.784733) scale(-1, 1) translate(-28.169810, -10.784733) " points="33.5767535 2.56946685 22.6474797 10.7847334 33.6921411 19"></polyline>
+            <path d="M20.1398804,0.77036362 L13.9477027,21.4332911" id="Path-71"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,86 @@
+
+<svg width="637px" height="293px" viewBox="0 0 637 293" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M253.131989,1.88367896 L536.737434,51.6326421 C538.91335,52.0143327 540.367856,54.0876819 539.986166,56.2635972 C539.784731,57.4119213 539.092322,58.4152149 538.090142,59.0109156 L253.221461,228.338208 C252.229761,228.927679 251.031842,229.060269 249.935236,228.701939 L14.5897248,151.799701 C12.4898493,151.113539 11.343808,148.855009 12.0299699,146.755134 C12.3288019,145.840612 12.9472447,145.064439 13.7719238,144.568904 L250.38067,2.39488582 C251.206311,1.89877292 252.183246,1.71725416 253.131989,1.88367896 Z" id="path-1"></path>
+        <filter x="-11.3%" y="-14.7%" width="122.5%" height="158.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="42" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="532.705163 149.1977 618 167 593.457591 190.157589 505.359224 171.077406"></polygon>
+        <filter x="-16.9%" y="-24.4%" width="133.7%" height="197.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="532.705163 139.1977 618 157 593.457591 180.157589 505.359224 161.077406"></polygon>
+        <polygon id="path-6" points="505.482382 160.965344 593.545404 179.737509 593.545404 190.003135 505.482382 170.939038"></polygon>
+        <polygon id="path-7" points="617.936252 156.956673 617.936252 167.078884 593.389438 190.179012 593.389438 179.647041"></polygon>
+        <polygon id="path-8" points="12.6241035 5 52 13.2579252 40.6701308 24 0 15.1493051"></polygon>
+        <filter x="-36.5%" y="-52.6%" width="173.1%" height="310.5%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-10" points="12.6241035 9.09494702e-13 52 8.25792524 40.6701308 19 0 10.1493051"></polygon>
+        <polygon id="path-11" points="0 10 41 18.4041569 41 23 0 14.4651475"></polygon>
+        <polygon id="path-12" points="51 8 51 12.5702129 40 23 40 18.2447792"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(11.000000, 0.000000)">
+            <g id="Group-5">
+                <g id="Rectangle-16">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#1E1E1E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M253.899684,0.424730026 L324.799052,14.6282225 C326.423627,14.9536788 327.476771,16.5344915 327.151315,18.1590666 C327.000794,18.9104188 326.568466,19.5756917 325.943018,20.0184124 L101.394614,178.96406 C100.657832,179.485587 99.7253807,179.647633 98.8558447,179.405259 L7.00126737,153.801735 C5.4052552,153.356863 4.47207176,151.7024 4.91694382,150.106388 C5.12288826,149.367546 5.60400263,148.735647 6.26141777,148.340546 L251.765032,0.79493028 C252.405628,0.409937494 253.166861,0.277921267 253.899684,0.424730026 Z" id="Rectangle-16" fill="#252526"></path>
+                <path d="M253.788999,0.438659408 L540.015463,51.9870987 C541.102543,52.1828784 541.825086,53.222842 541.629306,54.3099225 C541.53012,54.8606614 541.204737,55.3446564 540.732171,55.6443771 L505.071672,78.2617258 C504.626014,78.5443805 504.086702,78.6394375 503.571262,78.5261823 L230.220652,18.4640812 C229.141818,18.2270339 228.459415,17.1603015 228.696462,16.0814677 C228.812505,15.553343 229.137445,15.0947093 229.597213,14.810113 L252.381859,0.706426051 C252.801761,0.44650656 253.30298,0.351128957 253.788999,0.438659408 Z" id="Rectangle-16" fill="#3C3C3C"></path>
+                <path d="M300.64414,59.645374 L360.521521,73.8642135" id="Path-53" stroke="#DFBC73"></path>
+                <path d="M295.081133,70.3210855 L314.9649,75.4578799" id="Path-54" stroke="#8BDFF8"></path>
+            </g>
+            <g id="Rectangle-19">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <path stroke="#979797" stroke-width="1" d="M532.833601,149.735282 L506.492256,170.811204 L593.306012,189.613168 L616.960139,167.29374 L532.833601,149.735282 Z"></path>
+            </g>
+            <g id="Rectangle-19">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <path stroke="#F0F0F0" stroke-width="1" d="M532.833601,139.735282 L506.492256,160.811204 L593.306012,179.613168 L616.960139,157.29374 L532.833601,139.735282 Z"></path>
+            </g>
+            <g id="Rectangle-21">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                <path stroke="#F0F0F0" stroke-width="1" d="M505.982382,161.583161 L505.982382,170.535697 L593.045404,189.383311 L593.045404,180.142159 L505.982382,161.583161 Z"></path>
+            </g>
+            <g id="Rectangle-22">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <path stroke="#F0F0F0" stroke-width="1" d="M617.436252,158.099752 L593.889438,179.865749 L593.889438,189.021893 L617.436252,166.86283 L617.436252,158.099752 Z"></path>
+            </g>
+            <path d="M538.042298,148.641075 L590.363207,159.819936" id="Path-55" stroke="#979797"></path>
+            <path d="M532.042298,154.641075 L584.363207,165.819936" id="Path-55" stroke="#979797"></path>
+            <g id="Group-10" transform="translate(532.000000, 236.000000)">
+                <g id="Rectangle-19">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <path stroke="#979797" stroke-width="1" d="M12.7530142,5.53791254 L1.1288889,14.8832727 L40.5180338,23.4551976 L50.9636861,13.5514665 L12.7530142,5.53791254 Z"></path>
+                </g>
+                <g id="Rectangle-19">
+                    <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-10"></use>
+                    <path stroke="#417DC3" stroke-width="1" d="M12.7530142,0.53791254 L1.1288889,9.88327274 L40.5180338,18.4551976 L50.9636861,8.5514665 L12.7530142,0.53791254 Z"></path>
+                </g>
+                <g id="Rectangle-21">
+                    <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    <path stroke="#417DC3" stroke-width="1" d="M0.5,10.6128858 L0.5,14.0585125 L40.5,22.3851979 L40.5,18.8120632 L0.5,10.6128858 Z"></path>
+                </g>
+                <g id="Rectangle-22">
+                    <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-12"></use>
+                    <path stroke="#417DC3" stroke-width="1" d="M50.5,9.14893616 L40.5,18.4623718 L40.5,21.8368955 L50.5,12.3552709 L50.5,9.14893616 Z"></path>
+                </g>
+            </g>
+            <path d="M546.939159,242.587108 L567.729298,247.255346" id="Path-56" stroke="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
