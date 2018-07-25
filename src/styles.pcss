@@ -35,7 +35,7 @@ section.main img.nav {
   width: 100%;
   flex-direction: column;
   align-items: center;
-    & h1 {
+  & h1 {
     width: 88%;
   }
 }
@@ -52,7 +52,7 @@ section.main img.nav {
   justify-content: space-evenly;
   max-width: 80%;
   & h2 {
-        width: auto;
+    width: auto;
     font-size: 20px;
     font-weight: 500;
   }
@@ -153,8 +153,6 @@ nav div span {
   }
 }
 
-
-
 nav ul {
   margin: 0;
   padding: 0;
@@ -191,19 +189,17 @@ nav ul li a {
   justify-content: center;
   font-size: 1.8rem;
   max-width: 55%;
-    & ul {
-      & li{
-        & a {
-          & h2 {
-            font-size: 20px;
-          }
-          & p {
-
-          }
+  & ul {
+    & li {
+      & a {
+        & h2 {
+          font-size: 20px;
+        }
+        & p {
         }
       }
     }
-
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -380,6 +376,34 @@ footer aside {
 
 footer main li:nth-child(1) {
   font-size: 22px;
+}
+
+.eang-cta {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f6f6f6;
+  box-shadow: inset 0 0 5px var(--ea-color-1);
+  margin-bottom: 4rem;
+  justify-content: center;
+  & h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  & button {
+    background: var(--ea-color-1);
+    color: var(--ea-color-3);
+    height: 3rem;
+    width: 9rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    & p {
+      width: auto;
+      margin-left: 0.5rem;
+    }
+  }
 }
 
 footer main {
