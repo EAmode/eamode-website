@@ -949,10 +949,10 @@ nav ul li a {
 @media only screen and (max-width: 700px) {
   #header h1 {
     font-size: 28px;
-    text-align: center;
+    text-align: left;
   }
   #header h3 {
-    text-align: center;
+    text-align: left;
     font-size: 18px;
   }
 }
@@ -1150,6 +1150,9 @@ footer aside {
           flex-direction: column;
   color: white;
 }
+a li {
+    color: var(--ea-color-1);
+  }
 /*
 @media (--small-screen) {
   footer aside {
@@ -1203,6 +1206,9 @@ footer main li:nth-child(1) {
         -ms-flex-pack: center;
             justify-content: center;
   }
+.eang-cta button a {
+      color: var(--ea-color-3);
+    }
 .eang-cta button .eang-button {
       height: 48px;
       height: 3rem;

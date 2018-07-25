@@ -254,10 +254,10 @@ nav ul li a {
 @media only screen and (max-width: 700px) {
   #header h1 {
     font-size: 28px;
-    text-align: center;
+    text-align: left;
   }
   #header h3 {
-    text-align: center;
+    text-align: left;
     font-size: 18px;
   }
 }
@@ -386,6 +386,12 @@ footer aside {
   color: white;
 }
 
+a {
+  & li {
+    color: var(--ea-color-1);
+  }
+}
+
 /*
 @media (--small-screen) {
   footer aside {
@@ -420,6 +426,9 @@ footer main li:nth-child(1) {
     border-radius: 4px;
     display: flex;
     justify-content: center;
+    & a {
+      color: var(--ea-color-3);
+    }
     & .eang-button {
       height: 3rem;
       width: 100%;
