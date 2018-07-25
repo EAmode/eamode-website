@@ -59,6 +59,12 @@ section.main img.nav {
 }
 
 @media only screen and (max-width: 1200px) {
+  #header {
+    & p {
+      margin-bottom: 3rem;
+    }
+  }
+
   .offering {
     display: flex;
     justify-content: center;
@@ -68,6 +74,8 @@ section.main img.nav {
 
   .offering-text {
     display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   #documentation {
@@ -81,6 +89,10 @@ section.main img.nav {
   .value-image {
     width: 90%;
     margin-bottom: 3rem;
+  }
+
+  .image {
+    width: 100%;
   }
 }
 
@@ -196,6 +208,14 @@ nav ul li a {
           font-size: 20px;
         }
         & p {
+          font-size: 16px;
+        }
+        & .learn-more {
+          font-size: 15px;
+          justify-content: flex-end;
+          & span {
+            margin-right: 1rem;
+          }
         }
       }
     }
@@ -234,10 +254,10 @@ nav ul li a {
 @media only screen and (max-width: 700px) {
   #header h1 {
     font-size: 28px;
-    text-align: center;
+    text-align: left;
   }
   #header h3 {
-    text-align: center;
+    text-align: left;
     font-size: 18px;
   }
 }
@@ -366,6 +386,12 @@ footer aside {
   color: white;
 }
 
+a {
+  & li {
+    color: var(--ea-color-1);
+  }
+}
+
 /*
 @media (--small-screen) {
   footer aside {
@@ -384,12 +410,13 @@ footer main li:nth-child(1) {
   flex-direction: column;
   align-items: center;
   background: #f6f6f6;
-  box-shadow: inset 0 0 5px var(--ea-color-1);
+  box-shadow: inset 0 0 1px var(--ea-color-1);
   margin-bottom: 4rem;
   justify-content: center;
   & h2 {
     font-size: 1.4rem;
     font-weight: 600;
+    text-align: center;
   }
   & button {
     background: var(--ea-color-1);
@@ -399,6 +426,16 @@ footer main li:nth-child(1) {
     border-radius: 4px;
     display: flex;
     justify-content: center;
+    & a {
+      color: var(--ea-color-3);
+    }
+    & .eang-button {
+      height: 3rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     & p {
       width: auto;
       margin-left: 0.5rem;
