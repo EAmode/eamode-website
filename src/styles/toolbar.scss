@@ -1,5 +1,4 @@
-
-ea-panel {
+.mode ea-panel {
   & div {
     display: flex;
     align-items: center;
@@ -11,4 +10,9 @@ ea-panel {
   & span {
     padding-left: 1rem;
   }
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

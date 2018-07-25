@@ -5,14 +5,33 @@
 // @import 'styles/main-header.pcss';
 
 /***************************/
-@import "~eang/css/mode.css";
+@import '~eang/css/mode.css';
+// @import './styles/offering.scss';
+// @import './styles/main-header.scss';
+// @import './styles/toolbar.scss';
 
-body {
-  font-family: 'Titillium Web', sans-serif;
-  margin: 0;
-  background: var(--ea-color-3);
+:root {
+  --toolbar-height: 4rem;
 }
 
+body {
+  margin: 0;
+}
 
+#toolbar {
+  --ea-panel-height: var(--toolbar-height);
+  --ea-panel-color: var(--ea-color-3);
+  & .logo {
+    width: 40px;
+  }
+}
 
+.main-container {
+  margin-top: var(--toolbar-height);
+  display: flex;
+  justify-content: center;
+}
 
+section {
+  width: 1000px;
+}
