@@ -661,6 +661,18 @@ body {
   margin: 0;
   background: var(--ea-color-3);
 }
+ea-panel div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+ea-panel span {
+    padding-left: 16px;
+    padding-left: 1rem;
+  }
 section.main img.nav {
   width: 50px;
   position: fixed;
@@ -674,7 +686,6 @@ section.main img.nav {
   display: flex;
   font-size: 32px;
   font-size: 2rem;
-
   font-size: 22px;
 }
 @media only screen and (max-width: 1200px) {
@@ -869,7 +880,8 @@ nav ul li a {
 }
 .logo {
   width: 45px;
-  padding-left: 25px;
+  padding-left: 16px;
+  padding-left: 1rem;
 }
 @media only screen and (max-width: 1200px) {
   nav ul {
@@ -888,8 +900,8 @@ nav ul li a {
           align-items: center;
 }
 #header {
-  height: 960px;
-  height: 60rem;
+  height: 720px;
+  height: 45rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
