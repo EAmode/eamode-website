@@ -12,34 +12,108 @@
 
 :root {
   --toolbar-height: 4rem;
+  @media only screen and (max-width: 400px) {
+    font-size: 12px;
+  }
 }
 
 body {
   margin: 0;
 }
-
-#toolbar {
-  --ea-panel-height: var(--toolbar-height);
-  --ea-panel-color: var(--ea-color-3);
-  & .logo {
-    width: 40px;
+.mode {
+  #toolbar {
+    --ea-panel-height: var(--toolbar-height);
+    --ea-panel-color: var(--ea-color-3);
+    display: flex;
+    align-items: center;
+    & .logo {
+      padding-left: 1rem;
+      width: 40px;
+    }
+    & span {
+      padding-left: 0.25rem;
+    }
   }
-}
-
-.main-container {
-  margin-top: var(--toolbar-height);
-  display: flex;
-  justify-content: center;
-}
-
-
-#banner {
-  & .ea-card {
-    width: 20rem;
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
-}
 
-.wrap-container {
-  display: flex;
-  flex-wrap: wrap;
+  .main-container {
+    margin-top: var(--toolbar-height);
+    display: flex;
+    justify-content: center;
+  }
+
+  #banner {
+    padding: 4rem 0;
+    text-align: center;
+    & p.banner-text {
+      padding: 0 0 4rem 0;
+      border-bottom: 1px solid var(--ea-color-background-7);
+    }
+    & .ea-card {
+      width: 20rem;
+      max-width: 1200px;
+      text-align: left;
+      @media only screen and (max-width: 1200px) {
+        width: 85%;
+      }
+      .ea-card-content {
+        flex-direction: column;
+      }
+    }
+  }
+
+  .wrap-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  eamode-about {
+    max-width: 1200px;
+    @media only screen and (max-width: 1200px) {
+      max-width: 95%;
+    }
+  }
+
+  .offering {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 0;
+    & ul {
+      margin: 0;
+      padding: 0;
+      & li {
+        list-style: none;
+        display: flex;
+        margin: 0 0 24px 0;
+        & img {
+          height: 25px;
+          width: 25px;
+        }
+        & div {
+          margin: 0;
+          font-size: 18px;
+          padding-left: 18px;
+        }
+      }
+    }
+  }
+  .offering-text {
+    width: 50%;
+    & h2 {
+      width: auto;
+      font-size: 20px;
+      font-weight: 500;
+      margin: -8px 0 24px;
+    }
+    & h3 {
+      text-transform: uppercase;
+      color: var(--ea-color-background-5);
+      margin: 0 0 12px;
+    }
+  }
 }
