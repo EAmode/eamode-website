@@ -32,6 +32,14 @@ body {
   justify-content: center;
 }
 
-section {
-  width: 1000px;
+
+#banner {
+  & .ea-card {
+    width: 20rem;
+  }
+}
+
+.wrap-container {
+  display: flex;
+  flex-wrap: wrap;
 }
