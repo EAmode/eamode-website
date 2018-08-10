@@ -12,8 +12,13 @@
 
 :root {
   --toolbar-height: 4rem;
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     font-size: 12px;
+  }
+
+  h1,
+  h3 {
+    --ea-font-1: 'Georgia';
   }
 }
 
@@ -21,6 +26,8 @@ body {
   margin: 0;
 }
 .mode {
+  --ea-h3-font-family: 'Georgia';
+
   #toolbar {
     --ea-panel-height: var(--toolbar-height);
     --ea-panel-color: var(--ea-color-3);
@@ -29,6 +36,9 @@ body {
     & .logo {
       padding-left: 1rem;
       width: 40px;
+      @media only screen and (max-width:700px) {
+        width: 25px;
+      }
     }
     & span {
       padding-left: 0.25rem;
@@ -54,14 +64,33 @@ body {
       border-bottom: 1px solid var(--ea-color-background-7);
     }
     & .ea-card {
-      width: 20rem;
+      width: 28%;
       max-width: 1200px;
       text-align: left;
-      @media only screen and (max-width: 1200px) {
+      min-width: 20rem;
+      flex-wrap: wrap;
+      @media only screen and (max-width: 700px) {
         width: 85%;
       }
       .ea-card-content {
         flex-direction: column;
+        & .cta-text {
+          margin: 0.5rem;
+        }
+      }
+    }
+    & .ea-card-content {
+      & img {
+        width: 100%;
+      }
+    }
+    & .ea-card-header {
+      background: var(--ea-color-background-2);
+      color: var(--ea-color-3);
+      & h2 {
+        margin: 0;
+        font-size: 1.3rem;
+        font-weight: 400;
       }
     }
   }
@@ -83,6 +112,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 6rem 0;
+    @media only screen and (max-width: 600px) {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
     & ul {
       margin: 0;
       padding: 0;
@@ -100,10 +133,31 @@ body {
           padding-left: 18px;
         }
       }
+      & a {
+        color: var(--ea-color-1);
+      }
+    }
+    .image {
+      max-width: 50%;
+      min-width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media only screen and (max-width: 600px) {
+        max-width: 90%;
+      }
+      & img {
+        max-width: 80%;
+        min-width: 40%;
+      }
     }
   }
   .offering-text {
-    width: 50%;
+    width: 60%;
+    @media only screen and (max-width: 600px) {
+      width: 90%;
+      margin-bottom: 2rem;
+    }
     & h2 {
       width: auto;
       font-size: 20px;
@@ -111,9 +165,9 @@ body {
       margin: -8px 0 24px;
     }
     & h3 {
-      text-transform: uppercase;
       color: var(--ea-color-background-5);
       margin: 0 0 12px;
+      font-size: 2.5rem;
     }
   }
 }
