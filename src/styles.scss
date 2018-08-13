@@ -30,7 +30,10 @@ body {
 
   #toolbar {
     --ea-panel-height: var(--toolbar-height);
-    --ea-panel-color: var(--ea-color-3);
+    --ea-panel-color: var(--ea-color-1);
+    background-color: var(--ea-color-background-1);
+    border-bottom: 1px solid var(--ea-color-background-2);
+
     display: flex;
     align-items: center;
     & .logo {
