@@ -21,7 +21,7 @@
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
-                <use id="Mask" fill="#0D355D" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <use id="Mask" fill="#425B9A" fill-rule="nonzero" xlink:href="#path-1"></use>
                 <g id="Group" opacity="0.7" mask="url(#mask-2)">
                     <g transform="translate(122.000000, 68.000000)">
                         <rect id="Rectangle-path" fill="#F6F7F9" fill-rule="nonzero" x="0.54" y="295.11" width="190.96" height="106.71"></rect>
@@ -110,7 +110,7 @@
                         <rect x="0.92" y="0.54" width="143.62" height="9.03"></rect>
                     </g>
                 </g>
-                <rect id="Rectangle-path" fill="#0D355D" fill-rule="nonzero" mask="url(#mask-2)" x="295" y="275" width="40" height="17"></rect>
+                <rect id="Rectangle-path" fill="#425B9A" fill-rule="nonzero" mask="url(#mask-2)" x="295" y="275" width="40" height="17"></rect>
                 <rect id="Rectangle-path" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-2)" x="281" y="376" width="305" height="171"></rect>
                 <rect id="Rectangle-path" fill="#F6F7F9" fill-rule="nonzero" mask="url(#mask-2)" x="283" y="378" width="301" height="168"></rect>
                 <g id="Group" opacity="0.2" mask="url(#mask-2)" fill="#0D355D" fill-rule="nonzero">
