@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "concurrently \"npm run css -- -w\" \"ng serve --port 4202\"",
-    "build:prod": "npm run css && ng build --prod",
-    "css": "postcss src/*.pcss -d src/ --ext css",
+    "build": "ng build",
+    "build:prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
