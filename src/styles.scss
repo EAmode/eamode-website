@@ -19,6 +19,7 @@
   h1,
   h3 {
     --ea-font-1: 'Georgia';
+    font-family: var(--ea-font-1);
   }
 }
 
@@ -26,7 +27,6 @@ body {
   margin: 0;
 }
 .mode {
-  --ea-h3-font-family: 'Georgia';
 
   #toolbar {
     --ea-panel-height: var(--toolbar-height);
@@ -36,15 +36,27 @@ body {
 
     display: flex;
     align-items: center;
-    & .logo {
-      padding-left: 1rem;
-      width: 40px;
-      @media only screen and (max-width:700px) {
-        width: 25px;
+    justify-content: center;
+    & .logo-container {
+      width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & button {
+        transition: all 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
+        p {
+          margin: 0;
+          color: var(--ea-color-3);
+          font-size: 1rem;
+          padding: 0 1rem;
+        }
       }
     }
-    & span {
-      padding-left: 0.25rem;
+    & .logo {
+      width: 120px;
+      @media only screen and (max-width: 700px) {
+        width: 65px;
+      }
     }
   }
   .sticky {
@@ -60,11 +72,38 @@ body {
   }
 
   #banner {
-    padding: 4rem 0;
-    text-align: center;
-    & p.banner-text {
-      padding: 0 0 4rem 0;
-      border-bottom: 1px solid var(--ea-color-background-7);
+    padding: 12rem 0;
+    & .banner-main-container {
+      display: flex;
+      height: 20rem;
+    }
+    & .banner-main-text {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    & .banner-main-image {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      & img {
+        width: 70.6%;
+      }
+    }
+  }
+
+  .services-card {
+    width: 100vw;
+    background: var(--ea-color-background-7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7rem 0;
+    margin-bottom: 4rem;
+    & h2 {
+      margin: 0 0 4rem 0;
     }
     & .ea-card {
       width: 28%;
@@ -72,27 +111,26 @@ body {
       text-align: left;
       min-width: 20rem;
       flex-wrap: wrap;
+      border: none;
+      box-shadow: none;
+      transition: all 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
       @media only screen and (max-width: 700px) {
         width: 85%;
       }
-      .ea-card-content {
+      &:hover {
+        & .ea-card-header {
+          background: var(--ea-color-background-2);
+          color: var(--ea-color-3);
+        }
+        cursor: pointer;
+        transform: scale(1.04);
+        box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.2);
+      }
+      & .ea-card-content {
         flex-direction: column;
         & .cta-text {
           margin: 0.5rem;
         }
-      }
-    }
-    & .ea-card-content {
-      & img {
-        width: 100%;
-      }
-    }
-    & .ea-card-header {
-      // --ea-card-header-background: var(--ea-color-background-2);
-      & h2 {
-        margin: 0;
-        font-size: 1.3rem;
-        font-weight: 400;
       }
     }
   }
@@ -103,11 +141,18 @@ body {
     justify-content: space-around;
   }
 
-  eamode-about {
+  #banner,
+  .offering {
     max-width: 1200px;
     @media only screen and (max-width: 1200px) {
       max-width: 95%;
     }
+  }
+
+  eamode-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .offering {
@@ -170,6 +215,19 @@ body {
       color: var(--ea-color-background-5);
       margin: 0 0 12px;
       font-size: 2.5rem;
+    }
+  }
+  #footer {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ea-color-3);
+    background: var(--ea-color-background-2);
+    & .footer-container {
+      width: 1200px;
+      display: flex;
+      justify-content: space-between;
     }
   }
 }
