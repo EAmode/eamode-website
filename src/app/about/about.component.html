@@ -4,80 +4,50 @@
       --ea-h1-font-family: 'Georgia';
     }
   </style>
-  <h1>Enabling business transformation</h1>
-  <p class="banner-text">EA Mode offers consulting services guided by our lightweight MODE methodology, a collection of best practices for modern
-    business process management and integrated enterprise architecture. </p>
-  <div class="wrap-container">
-    <div class="ea-card">
-      <div class="ea-card-header">
+  <div class="banner-main-container">
+    <div class="banner-main-text">
+      <h1>Enabling business transformation</h1>
+      <p class="banner-text">A collection of best practices for modern business process management and integrated enterprise architecture. </p>
+    </div>
+    <div class="banner-main-image">
+      <img class="value-image" src="../../assets/images/bannerMain.svg" alt="">
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="services-card">
+  <h1>Our services</h1>
+  <h2>End-to-end support for your needs.</h2>
+  <div class="card-container" style="max-width: 1200px; display: flex; align-items: center; flex-wrap: wrap; justify-content: center;">
+    <div *ngFor="let service of services" class="ea-card">
+      <div class="ea-card-header" style="--ea-card-header-background: var(--ea-color-background-1);">
         <h3>
-          Consulting
+          {{service.name}}
         </h3>
       </div>
       <div class="ea-card-content">
-        <p class="cta-text">Business Process</p>
-        <p class="cta-text">Enterprise Architecture</p>
-        <p class="cta-text">Solution Architecture</p>
+        <p *ngFor="let desc of service.description" class="cta-text">
+          {{desc.text}}
+        </p>
       </div>
-      <!-- <div class="ea-card-footer">
-            <div class="learn-more">
-              <span>Learn More</span>
-              <img src="../../assets/images/arrow.svg" alt="">
-            </div>
-          </div> -->
-    </div>
-    <div class="ea-card">
-      <div class="ea-card-header">
-        <h3>Software Development</h3>
+      <div class="ea-card-footer">
+        Request a consultation
       </div>
-      <div class="ea-card-content">
-        <p class="cta-text">Concept to Production</p>
-        <p class="cta-text">Managed SDLC</p>
-        <p class="cta-text">Open Source</p>
-      </div>
-      <!-- <div class="ea-card-footer">
-            <div class="learn-more">
-              <span>Learn More</span>
-              <img src="../../assets/images/arrow.svg" alt="">
-            </div>
-          </div> -->
-    </div>
-    <div class="ea-card">
-      <div class="ea-card-header">
-        <h3>Mode Platform</h3>
-      </div>
-      <div class="ea-card-content">
-        <p class="cta-text">Process Analytics</p>
-        <p class="cta-text">Process Repository</p>
-        <p class="cta-text">OLAP-as-a-Service</p>
-      </div>
-      <!-- <div class="ea-card-footer">
-            <div class="learn-more">
-              <span>Learn More</span>
-              <img src="../../assets/images/arrow.svg" alt="">
-            </div>
-          </div> -->
     </div>
   </div>
 </section>
 
 <div class="offering">
-
   <div class="offering-text">
     <h3>Organize your process</h3>
     <h2>Organize your enterprise into one, central repository of all your process documentation.</h2>
-    <ul>
+    <ul *ngFor="let offering of consulting">
       <li>
-        <img src="../../assets/images/e2e.svg" alt="">
-        <div>Review and documentation of existing standards</div>
-      </li>
-      <li>
-        <img src="../../assets/images/standardization.svg" alt="">
-        <div>Organization-wide standardization strategy</div>
-      </li>
-      <li>
-        <img src="../../assets/images/target.svg" alt="">
-        <div>KPI measurement and implementation plan</div>
+        <img src="../../assets/images/{{offering.img}}" alt="">
+        <div>{{offering.description}}</div>
       </li>
     </ul>
   </div>
@@ -87,41 +57,43 @@
 </div>
 
 <div class="offering">
-    <div class="image" style="padding-bottom: 2rem;">
-      <img class="value-image" src="../../assets/images/software.svg" alt="">
-    </div>
-    <div class="offering-text">
-      <h3>Develop incredible software</h3>
-      <h2>We support custom software development by aligning ourselves with clients software development needs.</h2>
-      <ul>
-        <li>
-          <img src="../../assets/images/gitflow.svg" alt="">
-          <div>Automated Development Pipeline (CI/CD)</div>
-        </li>
-        <li>
-            <img src="../../assets/images/pallete.svg" alt="">
-          <div>Easily themeable and composable web components library</div>
-        </li>
-        <a href="https://eang.io">
-          <li>
-              <img src="../../assets/images/eang-logo-white.svg" alt="">
-            <div>Get started with our Components library, Eang <img style="height: 1rem; width:1rem;"src="../../assets/images/external.svg" alt=""></div>
-          </li>
-        </a>
-
-      </ul>
-    </div>
+  <div class="image" style="padding-bottom: 2rem;">
+    <img class="value-image" src="../../assets/images/software.svg" alt="">
   </div>
+  <div class="offering-text">
+    <h3>Develop incredible software</h3>
+    <h2>We support custom software development by aligning ourselves with clients software development needs.</h2>
+    <ul>
+      <li>
+        <img src="../../assets/images/gitflow.svg" alt="">
+        <div>Automated Development Pipeline (CI/CD)</div>
+      </li>
+      <li>
+        <img src="../../assets/images/pallete.svg" alt="">
+        <div>Easily themeable and composeable web components library</div>
+      </li>
+      <a href="https://eang.io">
+        <li>
+          <img src="../../assets/images/eang-logo-white.svg" alt="">
+          <div>Get started with our Components library, Eang
+            <img style="height: 1rem; width:1rem;" src="../../assets/images/external.svg" alt="">
+          </div>
+        </li>
+      </a>
+
+    </ul>
+  </div>
+</div>
 
 
 <div class="offering">
   <div class="offering-text">
     <h3>Stop looking for your data</h3>
-    <h2>Integrate your Business Process with the MODE Olap Cube and sync up with any BI tool you choose.</h2>
+    <h2>Integrate your business processes with the MODE Olap Cube and sync up with any BI tool you choose.</h2>
     <ul>
       <li>
         <img src="../../assets/images/ongoingAnalytics.svg" alt="">
-        <div>Continious KPI monitoring in a BI dashboard</div>
+        <div>Continuous KPI monitoring in a BI dashboard</div>
       </li>
       <li>
         <img src="../../assets/images/alert.svg" alt="">
@@ -129,7 +101,7 @@
       </li>
       <li>
         <img src="../../assets/images/connected.svg" alt="">
-        <div>Managed infrustructure for system-wide integrations</div>
+        <div>Managed infrastructure for system-wide integrations</div>
       </li>
     </ul>
   </div>
@@ -137,7 +109,6 @@
     <img class="value-image" src="../../assets/images/analytics.svg" alt="">
   </div>
 </div>
-
 
 
 

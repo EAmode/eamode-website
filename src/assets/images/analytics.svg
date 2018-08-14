@@ -21,7 +21,7 @@
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
-                <use id="Mask" fill="#0D355D" fill-rule="nonzero" opacity="0.787873641" xlink:href="#path-1"></use>
+                <use id="Mask" fill="#425B9A" fill-rule="nonzero" opacity="0.787873641" xlink:href="#path-1"></use>
                 <g id="Group-2" mask="url(#mask-2)">
                     <g transform="translate(904.500000, 463.500000) scale(-1, 1) translate(-904.500000, -463.500000) translate(787.000000, 223.000000)">
                         <path d="M0,460.205178 C20.0151636,468.754605 44.4363123,463.552392 67.1494447,464.154754 C70.2517602,464.236894 73.5492775,464.490159 76.0381014,465.968683 C78.5269253,467.447207 79.76088,469.836118 81.4688964,471.889624 C87.8338718,479.514973 100.87754,481.96549 112.275935,480.671781 C123.67433,479.378073 134.124602,475.093092 144.881619,471.834863 C163.474598,466.194569 184.723716,463.620842 203.065721,469.781358 C204.745851,470.34265 206.551469,470.992926 208.322229,470.767041 C212.344781,470.267354 213.543879,466.174034 216.353391,463.839883 C221.42864,459.616507 232.457546,460.76647 234.688425,455.20147 C235.992094,451.943242 232.98738,448.602873 229.710777,446.378243 C217.162085,437.863041 199.245341,436.459812 182.841412,437.774056 C166.437484,439.088299 150.312414,442.709313 133.824828,442.723003 C113.27983,442.723003 93.4319827,437.164849 73.0891588,434.885458 C58.9997664,433.311104 43.6206473,433.516455 30.4096634,438.150531 C16.0902116,443.161084 12.9390956,454.448519 0,460.205178 Z" id="Shape" fill="#6C63FF" fill-rule="nonzero" opacity="0.1"></path>
@@ -145,11 +145,11 @@
                         <rect id="Rectangle-path" x="0.05" y="0.65" width="21.95" height="10"></rect>
                     </g>
                     <rect id="Rectangle-path" fill="#F6F7F9" x="442.14" y="175.09" width="33.33" height="10"></rect>
-                    <rect id="Rectangle-path" fill="#0D355D" x="223.71" y="531.98" width="21.95" height="62.67"></rect>
-                    <rect id="Rectangle-path" fill="#0D355D" x="262.38" y="502.98" width="21.95" height="91.67"></rect>
-                    <rect id="Rectangle-path" fill="#0D355D" x="301.05" y="478.65" width="21.95" height="116"></rect>
-                    <rect id="Rectangle-path" fill="#0D355D" x="339.71" y="491.26" width="21.95" height="103.38"></rect>
-                    <rect id="Rectangle-path" fill="#0D355D" x="378.38" y="469.32" width="21.95" height="125.33"></rect>
+                    <rect id="Rectangle-path" fill="#425B9A" x="223.71" y="531.98" width="21.95" height="62.67"></rect>
+                    <rect id="Rectangle-path" fill="#425B9A" x="262.38" y="502.98" width="21.95" height="91.67"></rect>
+                    <rect id="Rectangle-path" fill="#425B9A" x="301.05" y="478.65" width="21.95" height="116"></rect>
+                    <rect id="Rectangle-path" fill="#425B9A" x="339.71" y="491.26" width="21.95" height="103.38"></rect>
+                    <rect id="Rectangle-path" fill="#425B9A" x="378.38" y="469.32" width="21.95" height="125.33"></rect>
                     <g id="Group" opacity="0.2" transform="translate(417.000000, 517.000000)" fill="#6C63FF">
                         <rect id="Rectangle-path" x="0.05" y="0.32" width="21.95" height="77.33"></rect>
                     </g>
