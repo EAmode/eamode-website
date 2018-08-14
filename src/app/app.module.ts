@@ -6,13 +6,19 @@ import { AppComponent } from './app.component'
 import { AboutComponent } from './about/about.component'
 import { HeaderComponent } from './header/header.component'
 import { FooterComponent } from './footer/footer.component'
-import { PanelModule } from 'eang'
+import { PanelModule } from 'eang';
+import { ConsultingComponent } from './consulting/consulting.component';
+import { SoftwareComponent } from './software/software.component';
+import { ModeComponent } from './mode/mode.component'
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ConsultingComponent,
+    SoftwareComponent,
+    ModeComponent
   ],
   imports: [BrowserModule, AppRoutingModule, PanelModule],
   providers: [],

@@ -1,6 +1,11 @@
 <ea-panel id="toolbar" class="sticky">
   <div class="logo-container">
-    <img class="logo" alt="" src="../assets/images/crown.svg">
+    <a [routerLink]="['/']">
+      <img class="logo" alt="" src="../assets/images/crown.svg">
+    </a>
+    <a [routerLink]="['/consulting']">consulting</a>
+    <a [routerLink]="['/software']">software</a>
+    <a [routerLink]="['/mode']">MODE</a>
     <button>
       <p>Get in Touch</p>
     </button>
