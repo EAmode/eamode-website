@@ -6,10 +6,10 @@ import { AppComponent } from './app.component'
 import { AboutComponent } from './about/about.component'
 import { HeaderComponent } from './header/header.component'
 import { FooterComponent } from './footer/footer.component'
-import { PanelModule } from 'eang';
-import { ConsultingComponent } from './consulting/consulting.component';
-import { SoftwareComponent } from './software/software.component';
-import { ModeComponent } from './mode/mode.component';
+import { PanelModule } from 'eang'
+import { ConsultingComponent } from './consulting/consulting.component'
+import { SoftwareComponent } from './software/software.component'
+import { ModeComponent } from './mode/mode.component'
 import { MobileNavComponent } from './mobile-nav/mobile-nav.component'
 @NgModule({
   declarations: [
