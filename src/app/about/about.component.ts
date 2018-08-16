@@ -56,20 +56,6 @@ export class AboutComponent implements OnInit {
     }
   ]
 
-  consulting = [
-    {
-      img: 'e2e.svg',
-      description: 'Review and documentation of existing standards'
-    },
-    {
-      img: 'standardization.svg',
-      description: 'Organization-wide standardization strategy'
-    },
-    {
-      img: 'target.svg',
-      description: 'KPI measurement and implementation plan'
-    }
-  ]
 
   ngOnInit() {}
 }

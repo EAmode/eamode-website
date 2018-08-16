@@ -9,7 +9,8 @@ import { FooterComponent } from './footer/footer.component'
 import { PanelModule } from 'eang';
 import { ConsultingComponent } from './consulting/consulting.component';
 import { SoftwareComponent } from './software/software.component';
-import { ModeComponent } from './mode/mode.component'
+import { ModeComponent } from './mode/mode.component';
+import { MobileNavComponent } from './mobile-nav/mobile-nav.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { ModeComponent } from './mode/mode.component'
     FooterComponent,
     ConsultingComponent,
     SoftwareComponent,
-    ModeComponent
+    ModeComponent,
+    MobileNavComponent
   ],
   imports: [BrowserModule, AppRoutingModule, PanelModule],
   providers: [],

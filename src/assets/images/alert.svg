@@ -1,11 +1,12 @@
 
-<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="28px" height="26px" viewBox="0 0 28 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-3" transform="translate(-363.000000, -629.000000)">
-            <g id="Group-3" transform="translate(364.000000, 630.000000)">
+        <g id="Group-10" transform="translate(-2.000000, -2.000000)">
+            <path d="M12.9957323,7.10010451 C10.7530439,5.71332041 9.20766947,5.25105904 8.35960911,5.71332041 C7.08751856,6.40671246 5.07265651,8.78356381 5.07265651,11.1388545 C5.07265651,13.4941451 6.5145388,14.9878703 6.5145388,16.7429111 C6.5145388,18.4979519 5.07265651,19.352618 5.07265651,21.0800611 C5.07265651,22.8075042 7.6850238,25.9760644 8.35960911,25.9760644 C9.03419441,25.9760644 13.2828798,26.7570206 14.6050993,23.9185409 C15.9273189,21.0800611 18.9496119,21.8610173 18.9496119,23.9185409 C18.9496119,25.9760644 19.9106871,26.9801357 23.7280368,25.9760644 C27.5453865,24.9719932 27.5453865,24.9719932 27.5453865,16.5475833 C27.5453865,10.9313101 25.9892316,7.31988913 22.876922,5.71332041 C18.8407296,4.78879768 16.3344597,4.78879768 15.3581122,5.71332041 C14.3817648,6.63784314 13.5943048,7.10010451 12.9957323,7.10010451 Z" id="Path-3" fill="#F1AE4E" opacity="0.421025815" transform="translate(16.309021, 15.694475) rotate(140.000000) translate(-16.309021, -15.694475) "></path>
+            <g id="Group-3" transform="translate(7.000000, 6.000000)">
                 <g id="alert-circle" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                     <circle id="Oval" cx="10" cy="10" r="10"></circle>
                     <path d="M10,6 L10,12" id="Shape"></path>

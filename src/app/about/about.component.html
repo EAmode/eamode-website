@@ -19,94 +19,30 @@
 </section>
 
 <section class="services-card">
+  <!-- <img src="../../assets/images/clouds.svg" alt=""> -->
   <h1>Our services</h1>
   <h2>End-to-end support for your needs.</h2>
   <div class="card-container" style="max-width: 1200px; display: flex; align-items: center; flex-wrap: wrap; justify-content: center;">
     <div *ngFor="let service of services" class="ea-card">
-      <div class="ea-card-header" style="--ea-card-header-background: var(--ea-color-background-1);">
-        <h3>
-          {{service.name}}
-        </h3>
-      </div>
-      <div class="ea-card-content">
-        <p *ngFor="let desc of service.description" class="cta-text">
-          {{desc.text}}
-        </p>
-      </div>
-      <div class="ea-card-footer">
-        Request a consultation
-      </div>
+          <h3>
+            {{service.name}}
+          </h3>
     </div>
   </div>
 </section>
 
-<div class="offering">
+
+<div class="slack-cta">
   <div class="offering-text">
-    <h3>Organize your process</h3>
-    <h2>Organize your enterprise into one, central repository of all your process documentation.</h2>
-    <ul *ngFor="let offering of consulting">
-      <li>
-        <img src="../../assets/images/{{offering.img}}" alt="">
-        <div>{{offering.description}}</div>
-      </li>
-    </ul>
+    <h3>Join the conversation</h3>
+    <h2>Our Slack has the latest in greatest in what we're looking at.</h2>
+
   </div>
   <div class="image">
-    <img class="value-image" src="../../assets/images/documentation.svg" alt="">
-  </div>
-</div>
-
-<div class="offering">
-  <div class="image" style="padding-bottom: 2rem;">
-    <img class="value-image" src="../../assets/images/software.svg" alt="">
-  </div>
-  <div class="offering-text">
-    <h3>Develop incredible software</h3>
-    <h2>We support custom software development by aligning ourselves with clients software development needs.</h2>
-    <ul>
-      <li>
-        <img src="../../assets/images/gitflow.svg" alt="">
-        <div>Automated Development Pipeline (CI/CD)</div>
-      </li>
-      <li>
-        <img src="../../assets/images/pallete.svg" alt="">
-        <div>Easily themeable and composeable web components library</div>
-      </li>
-      <a href="https://eang.io">
-        <li>
-          <img src="../../assets/images/eang-logo-white.svg" alt="">
-          <div>Get started with our Components library, Eang
-            <img style="height: 1rem; width:1rem;" src="../../assets/images/external.svg" alt="">
-          </div>
-        </li>
-      </a>
-
-    </ul>
-  </div>
-</div>
-
-
-<div class="offering">
-  <div class="offering-text">
-    <h3>Stop looking for your data</h3>
-    <h2>Integrate your business processes with the MODE Olap Cube and sync up with any BI tool you choose.</h2>
-    <ul>
-      <li>
-        <img src="../../assets/images/ongoingAnalytics.svg" alt="">
-        <div>Continuous KPI monitoring in a BI dashboard</div>
-      </li>
-      <li>
-        <img src="../../assets/images/alert.svg" alt="">
-        <div>Real-time alerts and reminders</div>
-      </li>
-      <li>
-        <img src="../../assets/images/connected.svg" alt="">
-        <div>Managed infrastructure for system-wide integrations</div>
-      </li>
-    </ul>
-  </div>
-  <div class="image">
-    <img class="value-image" src="../../assets/images/analytics.svg" alt="">
+    <button>
+      <p>Join our Slack </p>
+      <img src="../../assets/images/slack.svg" alt="">
+    </button>
   </div>
 </div>
 

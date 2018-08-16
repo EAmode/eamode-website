@@ -1,0 +1,13 @@
+
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M6.33048852,2.34948289 C4.37105775,2.14373049 3.39134236,2.81679634 3.39134236,4.36868045 C3.39134236,5.92056455 3.39134236,10.2540765 3.39134236,17.3692163 C3.28861879,18.693623 3.93867973,19.3558263 5.34152517,19.3558263 C6.74437061,19.3558263 10.2461021,19.3558263 15.8467197,19.3558263 C17.2822399,19.4730715 18,18.8108681 18,17.3692163 C18,15.9275644 18,11.4666165 18,3.98637247 C17.9428049,2.89511275 17.5309147,2.34948289 16.7643293,2.34948289 C15.997744,2.34948289 12.5197971,2.34948289 6.33048852,2.34948289" id="Path-2" fill="#6A9C45"></path>
+        <g id="clipboard" transform="translate(1.000000, 1.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12,2 L14,2 C15.1045695,2 16,2.8954305 16,4 L16,18 C16,19.1045695 15.1045695,20 14,20 L2,20 C0.8954305,20 0,19.1045695 0,18 L0,4 C0,2.8954305 0.8954305,2 2,2 L4,2" id="Shape"></path>
+            <rect id="Rectangle-path" x="4" y="0" width="8" height="4" rx="1"></rect>
+        </g>
+    </g>
+</svg>
