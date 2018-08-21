@@ -1,9 +1,23 @@
-<ea-panel>
-        <img style="width: 120px;" class="logo" alt="" src="../assets/images/crown.svg">
-      <!-- <a [routerLink]="['/consulting']">Consulting</a>
-      <a [routerLink]="['/software']">Software</a>
-      <a [routerLink]="['/mode']">MODE</a> -->
-    <button>
-      <img  src="../../assets/images/menu.svg" alt="">
-    </button>
+<ea-panel id="mobile-nav">
+  <img class="logo" alt="" src="../assets/images/crown.svg">
+  <button style="margin-right: 1rem; height: 70%; background: var(--ea-color-background-7); box-shadow: none; display: flex;"
+    (click)="toggleMenu()">
+    <img src="../../assets/images/menu.svg" alt="">
+  </button>
 </ea-panel>
+
+<nav [style.width]="toggleOpen()" id="nav" role="navigation">
+  <img style="position: absolute;
+    width: 100%;
+    top: 20%;" src="../../assets/images/bricks-half.svg" alt="">
+
+  <div class="mobile-links" style="z-index: 1000;">
+    <!-- <a [routerLink]="['/']">
+      <img class="logo" alt="" src="../assets/images/crown.svg">
+    </a> -->
+    <a [routerLink]="['/consulting']" [routerLinkActive]="['is-active']"> <p>Consulting</p> </a>
+    <a [routerLink]="['/software']" [routerLinkActive]="['is-active']"> <p>Software</p> </a>
+    <a [routerLink]="['/mode']" [routerLinkActive]="['is-active']"> <p>MODE</p> </a>
+  </div>
+  <button class="close" (click)="toggleMenu()"><img src="../../assets/images/x.svg" alt=""></button>
+</nav>

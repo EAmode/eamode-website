@@ -1,51 +1,54 @@
-
 <div class="offering">
-    <div class="expertise">
-      <div class="ea-card-content">
-        <img style="width: 100%;" src="../../assets/images/process-docs.svg" alt="">
-      </div>
-    </div>
-    <div class="offering-text-1">
-      <img src="../../assets/images/map.svg" alt="">
-      <h3>Organize your process</h3>
-      <h2>Organize your enterprise into one, central repository of all your process documentation.</h2>
+  <div class="expertise">
+    <div class="ea-card-content">
+      <img class="header-img" src="../../assets/images/process-docs.svg" alt="">
     </div>
   </div>
+  <div class="offering-text-1">
+    <img src="../../assets/images/map.svg" alt="">
+    <h3>Organize your process</h3>
+    <h2>Organize your enterprise into one, central repository of all your process documentation. Lay a glass pane over your enterprise
+      data.
+    </h2>
+  </div>
+</div>
 
 
 
 <div class="value-props">
-    <div class="title">
-        <h3>Organize your process</h3>
-        <h2>This is how we do things</h2>
-      </div>
-  <div class="prop" >
+  <div class="title">
+    <h3>Model Dependent Enterprise (MODE)</h3>
+    <h2>How does MODE help you?</h2>
+  </div>
+  <div class="prop">
     <div class="ea-card" *ngFor="let offering of consulting">
       <div class="ea-card-header">
         <img src="../../assets/images/{{offering.img}}" alt="">
         <h1>{{offering.description}}</h1>
       </div>
       <div class="ea-card-content">
-        {{offering.detail}}
+        <p style="margin-top: 0;">
+          {{offering.detail}}
+        </p>
       </div>
     </div>
   </div>
 </div>
 
 <div class="offering">
-    <div class="offering-text">
-      <h3>Stop looking for your data</h3>
-      <h2>Integrate your business processes with the MODE Olap Cube and sync up with any BI tool you choose.</h2>
-    </div>
-    <div class="image">
-      <img class="value-image" src="../../assets/images/analytics.svg" alt="">
-    </div>
+  <div class="offering-text">
+    <h3>Stop looking for your data</h3>
+    <h2>Integrate your business processes with the MODE Olap Cube and stop wondering what is really going on.</h2>
   </div>
+  <div class="image">
+    <img class="value-image" src="../../assets/images/analytics.svg" alt="">
+  </div>
+</div>
 
 
 
 <div class="contact">
-  <img style="position: absolute; height: 19rem;" src="../../assets/images/bricks.svg" alt="">
-  <h3>Request access to our private beta, today</h3>
+  <img src="../../assets/images/bricks.svg" alt="">
+  <h1>Request access to our private beta</h1>
   <button>Request Access</button>
 </div>

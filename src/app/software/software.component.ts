@@ -14,18 +14,18 @@ export class SoftwareComponent implements OnInit {
     {
       img: 'gitflow.svg',
       description: 'Managed SDLC',
-      detail: 'Automated Development Pipeline'
+      detail: 'We support a complete Software Development Lifecycle from concept-to-implementation.'
     },
     {
       img: 'pallete.svg',
       description: 'Project Management',
-      detail: 'Easily themeable and composeable web components library'
+      detail: 'Our experts can support your existing team with Project Management and product management.'
 
     },
     {
       img: 'eang-logo-white.svg',
       description: 'Application Architecture',
-      detail: 'Get started with our Components library, Eang'
+      detail: 'Complete your project with a high level application architecture, system design, and data modeling.'
     }
   ]
 

@@ -12,9 +12,10 @@ export class AboutComponent implements OnInit {
     {
       name: 'Consulting',
       image: '',
+      url: 'consulting',
       description: [
         {
-          text: 'Business Process'
+          text: 'Business Process',
         },
         {
           text: 'Enterprise Architecture'
@@ -27,6 +28,7 @@ export class AboutComponent implements OnInit {
     {
       name: 'Software Development',
       image: '',
+      url: 'software',
       description: [
         {
           text: 'Concept to Production'
@@ -42,6 +44,7 @@ export class AboutComponent implements OnInit {
     {
       name: 'MODE Platform',
       image: '',
+      url: 'mode',
       description: [
         {
           text: 'Process Analytics'

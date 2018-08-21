@@ -13,18 +13,18 @@ export class ModeComponent implements OnInit {
     {
       img: 'ongoingAnalytics.svg',
       description: 'Monitoring ',
-      detail: 'Continuous KPI monitoring in a BI dashboard'
+      detail: 'Monitor Key Performance Indicators (KPIs) in a BI dashboard of your choice.'
     },
     {
       img: 'alert.svg',
       description: 'Alerting ',
-      detail: 'Real-time alerts and reminders'
+      detail: 'Configure real-time alerts and reminders about critical processes'
 
-    }, 
+    },
     {
       img: 'connected.svg',
       description: 'Infrastructure',
-      detail: 'Managed infrastructure for system-wide integrations'
+      detail: 'Managed infrastructure for system-wide integrations and configurations.'
     }
   ]
 

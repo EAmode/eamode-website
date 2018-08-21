@@ -19,20 +19,20 @@
 </section>
 
 <section class="services-card">
-  <!-- <img src="../../assets/images/clouds.svg" alt=""> -->
+  <img style="position: absolute;
+  height: 25rem;
+  opacity: 0.4;" src="../../assets/images/bricks.svg" alt="">
   <h1>Our services</h1>
   <h2>End-to-end support for your needs.</h2>
   <div class="card-container" style="max-width: 1200px; display: flex; align-items: center; flex-wrap: wrap; justify-content: center;">
-    <div *ngFor="let service of services" class="ea-card">
-          <h3>
-            {{service.name}}
-          </h3>
-    </div>
+    <a *ngFor="let service of services" class="ea-card" [routerLink]="['/consulting']">
+      {{service.name}}
+    </a>
   </div>
 </section>
 
 
-<div class="slack-cta">
+<!-- <div class="slack-cta">
   <div class="offering-text">
     <h3>Join the conversation</h3>
     <h2>Our Slack has the latest in greatest in what we're looking at.</h2>
@@ -44,9 +44,19 @@
       <img src="../../assets/images/slack.svg" alt="">
     </button>
   </div>
+</div> -->
+
+
+<div class="contact">
+  <img src="../../assets/images/bricks.svg" alt="">
+  <h1 style="text-align:center;">Find out how we can support you</h1>
+  <a href="https://william708.typeform.com/to/vsvBcf">
+    <button>
+      <p>Get in Touch</p>
+    </button>
+
+  </a>
 </div>
-
-
 
 <!-- <section id="team" class="benefits">
   <div class="title team">

@@ -1,29 +1,29 @@
 <div class="offering">
-    <div class="expertise">
-      <div class="ea-card-content">
-        <div>
-          <img style="width: 30rem;" src="../../assets/images/eang-header.svg" alt="">
-        </div>
+  <div class="expertise">
+    <div class="ea-card-content">
+      <div>
+        <img class="header-img" src="../../assets/images/eang-header.svg" alt="">
       </div>
+    </div>
 
-    </div>
-    <div class="offering-text-1">
-      <img src="../../assets/images/shield.svg" alt="">
-      <h3>Meet Eang</h3>
-      <h2>Dev ops Automated Development Pipeline Easily themeable and composeable web components library Get started with our Components
-        library, eang.
-      </h2>
-    </div>
   </div>
+  <div class="offering-text-1">
+    <img src="../../assets/images/shield.svg" alt="">
+    <h3>Meet Eang</h3>
+    <h2>Dev ops Automated Development Pipeline Easily themeable and composeable web components library Get started with our Components
+      library, eang.
+    </h2>
+  </div>
+</div>
 
 
 
 
 <div class="value-props">
-    <div class="title">
-        <h3>Organize your process</h3>
-        <h2>This is how we do things</h2>
-      </div>
+  <div class="title">
+    <h3>Organize your process</h3>
+    <h2>This is how we do things</h2>
+  </div>
   <div class="prop">
     <div class="ea-card" *ngFor="let offering of software">
       <div class="ea-card-header">
@@ -31,7 +31,9 @@
         <h1>{{offering.description}}</h1>
       </div>
       <div class="ea-card-content">
-        {{offering.detail}}
+        <p style="margin-top: 0;">
+          {{offering.detail}}
+        </p>
       </div>
     </div>
   </div>
@@ -39,16 +41,26 @@
 
 
 <div class="offering">
-    <div class="image" style="padding-bottom: 2rem;">
-      <img class="value-image" src="../../assets/images/software.svg" alt="">
-    </div>
-    <div class="offering-text">
-      <h3>Develop incredible software</h3>
-      <h2>We support custom software development by aligning ourselves with clients software development needs.</h2>
-    </div>
+  <div class="image" style="padding-bottom: 2rem;">
+    <img class="value-image" src="../../assets/images/software.svg" alt="">
   </div>
+  <div class="offering-text">
+    <h3>Develop incredible software</h3>
+    <h2>Utilize our automated Dev Ops, Open Source components, and rapid development methods to develop what you need.</h2>
+  </div>
+</div>
 
-<div class="slack-cta">
+
+<div class="contact">
+  <img src="../../assets/images/bricks.svg" alt="">
+  <h1 style="text-align:center;">Get started developing on Eang
+    <br> for free</h1>
+  <button>
+    <p>eang</p>
+    <img style="width: 3rem; position:unset;" src="../../assets/images/eang-logo.svg" alt="">
+  </button>
+</div>
+<!-- <div class="slack-cta">
   <div class="offering-text">
     <h3>Get started with, eang</h3>
     <h2>or get in touch for a review of your needs.</h2>
@@ -60,4 +72,4 @@
       <img style="width: 3rem;" src="../../assets/images/eang-logo.svg" alt="">
     </button>
   </div>
-</div>
+</div> -->

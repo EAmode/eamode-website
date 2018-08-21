@@ -1,4 +1,9 @@
 <div class="offering">
+  <div class="offering-text-1">
+    <img src="../../assets/images/clipboard.svg" alt="">
+    <h3>Jumpstart your Project</h3>
+    <h2>Our collective experience is here to support your needs across key aspects of business. We stay on the cutting edge of the latest in technology to share our knowledge with you.</h2>
+  </div>
   <div class="expertise">
     <div class="ea-card">
       <div class="ea-card-header">
@@ -6,17 +11,16 @@
       </div>
       <div class="ea-card-content" *ngFor="let name of expertise">
         <div class="expertise-detail">
-          <p>{{name.detail}}</p>
+          <div class="expertise-detail-text">
+            <p style="font-weight: 500;">{{name.detail}}</p>
+            <p style="width: 100%; margin-top: 0.5rem; font-size: 1.1rem; display: flex;" *ngFor="let text of name.subdetail"><img style="width: 0.6rem;" src="../../assets/images/award.svg" style="    width: 8%;
+              padding-right: 0.5rem;" alt="">{{text.text}}</p>
+          </div>
           <img src="../../assets/images/check.svg" alt="">
         </div>
       </div>
 
     </div>
-  </div>
-  <div class="offering-text-1">
-    <img src="../../assets/images/clipboard.svg" alt="">
-    <h3>Organize your process</h3>
-    <h2>Organize your enterprise into one, central repository of all your process documentation.</h2>
   </div>
 </div>
 
@@ -26,7 +30,7 @@
     <h2>This is how we do things</h2>
   </div>
   <div class="prop">
-  <div class="ea-card"  *ngFor="let offering of consulting">
+    <div class="ea-card" *ngFor="let offering of consulting">
       <div class="ea-card-header">
         <img src="../../assets/images/{{offering.img}}" alt="">
         <h1>{{offering.description}}</h1>
@@ -43,8 +47,8 @@
 
 <div class="offering">
   <div class="offering-text">
-    <h3>Organize your process</h3>
-    <h2>Organize your enterprise into one, central repository of all your process documentation.</h2>
+    <h3>Save a headache use a Template</h3>
+    <h2>We have developed oeprational templates that embody our collective experience. Save yourself the trouble and learn from where we've been.</h2>
 
   </div>
   <div class="image">
@@ -54,7 +58,7 @@
 
 
 <div class="contact">
-  <img style="position: absolute; height: 19rem;" src="../../assets/images/bricks.svg" alt="">
-  <h3>Get in touch</h3>
+  <img src="../../assets/images/bricks.svg" alt="">
+  <h1>Request a Template</h1>
   <button>Get Started</button>
 </div>

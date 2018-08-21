@@ -14,30 +14,55 @@ export class ConsultingComponent implements OnInit {
     {
       img: 'e2e.svg',
       description: 'Documentation ',
-      detail: 'Review and of existing standards'
+      detail: 'Review and document your existing standards. This serves as the basis for different value added services'
     },
     {
       img: 'standardization.svg',
       description: 'Standardization ',
-      detail: 'Organization-wide strategy'
+      detail: 'Identify bottlenecks and inefficiencies in your process. Begin eliminating inefficiencies with a standrziation plan.'
 
     },
     {
       img: 'target.svg',
       description: 'Measurement',
-      detail: 'KPI and implementation plan'
+      detail: 'Lay the groundwork for a process performance measurement plan of custom KPIs.'
     }
   ]
 
   expertise = [
     {
-      detail: "This is a thing that we do really ",
+      detail: "IT Consulting",
+      subdetail: [
+        {
+          text: "IT Integrations"
+        },
+        {
+          text: "JIRA Reporting"
+        }
+      ]
+
     },
     {
-      detail: "Blockchain and Cryptocurrency "
+      detail: "Blockchain and Cryptocurrency",
+      subdetail: [
+        {
+          text: "Ethereum dApp Development"
+        },
+        {
+          text: "1000+ Hrs of Blockchain Operations experience"
+        }
+      ]
     },
     {
-      detail: "Business Process: TOGAF "
+      detail: "Business Process",
+      subdetail: [
+        {
+          text: "Enterprise Architecture"
+        },
+        {
+          text: "Business Process Modeling"
+        }
+      ]
     }
   ]
 
