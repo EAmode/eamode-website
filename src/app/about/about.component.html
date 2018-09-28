@@ -6,8 +6,8 @@
   </style>
   <div class="banner-main-container">
     <div class="banner-main-text">
-      <h1>Enabling business transformation</h1>
-      <p class="banner-text">A collection of best practices for modern business process management and integrated enterprise architecture. </p>
+      <h1>We build enterprise blueprints</h1>
+      <p class="banner-text">Companies struggle to grapple with the complexity of their operations. Through consulting, software development and our MODE platform we make sure the details are managed and you have the clarity you need to succeed. </p>
     </div>
     <div class="banner-main-image">
       <img class="value-image" src="../../assets/images/bannerMain.svg" alt="">
@@ -19,15 +19,19 @@
 </section>
 
 <section class="services-card">
-  <img style="position: absolute;
-  height: 25rem;
-  opacity: 0.4;" src="../../assets/images/bricks.svg" alt="">
+  <img  src="../../assets/images/bricks.svg" alt="">
   <h1>Our services</h1>
   <h2>End-to-end support for your needs.</h2>
   <div class="card-container" style="max-width: 1200px; display: flex; align-items: center; flex-wrap: wrap; justify-content: center;">
-    <a *ngFor="let service of services" class="ea-card" [routerLink]="['/consulting']">
-      {{service.name}}
+    <a class="ea-card" [routerLink]="['/consulting']">
+     Consulting
     </a>
+    <a class="ea-card" [routerLink]="['/software']">
+      Software Development
+     </a>
+     <a class="ea-card" [routerLink]="['/mode']">
+      MODE Platform
+     </a>
   </div>
 </section>
 

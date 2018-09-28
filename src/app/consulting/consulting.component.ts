@@ -14,12 +14,12 @@ export class ConsultingComponent implements OnInit {
     {
       img: 'e2e.svg',
       description: 'Documentation ',
-      detail: 'Review and document your existing standards. This serves as the basis for different value added services'
+      detail: 'Review and document your existing standards. This serves as the basis for different value added services.'
     },
     {
       img: 'standardization.svg',
       description: 'Standardization ',
-      detail: 'Identify bottlenecks and inefficiencies in your process. Begin eliminating inefficiencies with a standrziation plan.'
+      detail: 'Identify bottlenecks and inefficiencies in your process. Begin eliminating inefficiencies with a standardization plan.'
 
     },
     {
@@ -31,6 +31,20 @@ export class ConsultingComponent implements OnInit {
 
   expertise = [
     {
+      detail: "Blockchain and Cryptocurrency",
+      subdetail: [
+        {
+          text: "Ethereum dApp Development"
+        },
+        {
+          text: "Blockchain Operational Compliance"
+        },
+        {
+          text: "Token Economics"
+        }
+      ]
+    },
+     {
       detail: "IT Consulting",
       subdetail: [
         {
@@ -38,21 +52,14 @@ export class ConsultingComponent implements OnInit {
         },
         {
           text: "JIRA Reporting"
+        },
+        {
+          text: "Components Library"
         }
       ]
 
     },
-    {
-      detail: "Blockchain and Cryptocurrency",
-      subdetail: [
-        {
-          text: "Ethereum dApp Development"
-        },
-        {
-          text: "1000+ Hrs of Blockchain Operations experience"
-        }
-      ]
-    },
+
     {
       detail: "Business Process",
       subdetail: [
@@ -61,6 +68,9 @@ export class ConsultingComponent implements OnInit {
         },
         {
           text: "Business Process Modeling"
+        },
+        {
+          text: "Solution Architecture"
         }
       ]
     }

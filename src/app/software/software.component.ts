@@ -19,13 +19,13 @@ export class SoftwareComponent implements OnInit {
     {
       img: 'pallete.svg',
       description: 'Project Management',
-      detail: 'Our experts can support your existing team with Project Management and product management.'
+      detail: 'Our experts can support and monitor your existing team custom Jira workflows and tracking.'
 
     },
     {
       img: 'eang-logo-white.svg',
       description: 'Application Architecture',
-      detail: 'Complete your project with a high level application architecture, system design, and data modeling.'
+      detail: 'We give you a roadmap for your development with application architectures and system design.'
     }
   ]
 

@@ -18,7 +18,7 @@ export class ModeComponent implements OnInit {
     {
       img: 'alert.svg',
       description: 'Alerting ',
-      detail: 'Configure real-time alerts and reminders about critical processes'
+      detail: 'Configure real-time alerts and reminders about critical processes.'
 
     },
     {
