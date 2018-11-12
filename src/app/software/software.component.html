@@ -12,18 +12,20 @@
   </div>
 </div>
 
-
-
-<div class="value-props">
-  <div class="title">
-    <h3>Our Development Process</h3>
-    <h2 style="text-align: center;">How we get from concept to production</h2>
+<div class="ea-card three-col" unset>
+  <div class="ea-card-header">
+    <div class="title">
+      <h3>Our Development Process</h3>
+      <h2 style="text-align: center;">How we get from concept to production</h2>
+    </div>
   </div>
-  <div class="prop">
+  <div class="ea-card-content col" grid>
     <div class="ea-card" *ngFor="let offering of software">
       <div class="ea-card-header">
-        <img src="../../assets/images/{{offering.img}}" alt="">
-        <h1>{{offering.description}}</h1>
+        <div>
+          <img style="width: 2rem;" src="../../assets/images/{{offering.img}}" alt="">
+          <h2 style="margin:0;">{{offering.description}}</h2>
+        </div>
       </div>
       <div class="ea-card-content">
         <p style="margin-top: 0;">
@@ -31,18 +33,21 @@
         </p>
       </div>
     </div>
+
   </div>
 </div>
 
 
-<div id="banner">
-  <div class="image" style="padding-bottom: 2rem;">
-    <img class="value-image" src="../../assets/images/software.svg" alt="">
-  </div>
-  <div class="offering-text">
-    <h3>Develop incredible software</h3>
-    <p style="margin-top: -10px;">Utilize our automated deployment, Open Source components, and rapid development
-      methods to deliver what you need.</p>
+<div class="ea-card">
+  <div class="ea-card-content header two-col" grid>
+    <div class="image" style="padding-bottom: 2rem;">
+      <img class="value-image" src="../../assets/images/software.svg" alt="">
+    </div>
+    <div class="offering-text">
+      <h3>Develop incredible software</h3>
+      <p style="margin-top: -10px;">Utilize our automated deployment, Open Source components, and rapid development
+        methods to deliver what you need.</p>
+    </div>
   </div>
 </div>
 

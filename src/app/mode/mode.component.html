@@ -1,50 +1,58 @@
-<div id="banner">
-  <img class="header-img" src="../../assets/images/process-docs.svg" alt="">
-  <div class="offering-text-1">
-    <img src="../../assets/images/map.svg" alt="">
-    <h3>Organize your process</h3>
-    <p style="    margin-top: -10px;">Organize your process documentation into one, central repository. Get visibility
-      at every level of what should be happening.</p>
+<div class="ea-card" style="margin: 0;">
+  <div class="ea-card-content header two-col" grid>
+    <img style="width: 100%;" src="../../assets/images/process-docs.svg" alt="" />
+    <div>
+      <img src="../../assets/images/map.svg" alt="" />
+      <h3>Organize your process</h3>
+      <p style="    margin-top: -10px;">
+        Organize your process documentation into one, central repository. Get
+        visibility at every level of what should be happening.
+      </p>
+    </div>
   </div>
 </div>
 
-
-
-<div class="value-props">
-  <div class="title">
-    <h3 style="text-align: center;">Model Dependent Enterprise (MODE)</h3>
-    <h2>How does MODE help you?</h2>
+<div class="ea-card three-col" unset>
+  <div class="ea-card-header">
+    <div>
+      <h3 style="text-align: center;">Model Dependent Enterprise (MODE)</h3>
+      <h2>How does MODE help you?</h2>
+    </div>
   </div>
-  <div class="prop">
-    <div class="ea-card" *ngFor="let offering of consulting">
+  <div class="ea-card-content col" grid>
+    <div class="ea-card" unset *ngFor="let offering of consulting">
       <div class="ea-card-header">
-        <img src="../../assets/images/{{offering.img}}" alt="">
-        <h1>{{offering.description}}</h1>
+        <div>
+          <img style="height:2rem;" src="../../assets/images/{{offering.img}}" alt="" />
+          <h2 style="margin-top:0;">{{ offering.description }}</h2>
+        </div>
       </div>
       <div class="ea-card-content">
-        <p style="margin-top: 0;">
-          {{offering.detail}}
-        </p>
+        <p style="margin-top: 0;">{{ offering.detail }}</p>
       </div>
     </div>
   </div>
 </div>
 
-<div id="banner">
-  <div class="offering-text">
-    <h3>Stop looking for your data</h3>
-    <p style="    margin-top: -10px;">Integrate your business processes with the MODE Olap Cube and stop wondering what
-      is really going on.</p>
-  </div>
-  <div class="image">
-    <img class="value-image" src="../../assets/images/analytics.svg" alt="">
+<div class="ea-card">
+  <div class="ea-card-content header two-col" grid>
+    <div>
+      <h3>Stop looking for your data</h3>
+      <p style="    margin-top: -10px;">
+        Integrate your business processes with the MODE Olap Cube and stop
+        wondering what is really going on.
+      </p>
+    </div>
+    <div>
+      <img style="width: 100%;" src="../../assets/images/analytics.svg" alt="" />
+    </div>
   </div>
 </div>
 
-
-
 <div class="contact">
-  <img src="../../assets/images/bricks.svg" alt="">
+  <img src="../../assets/images/bricks.svg" alt="" />
   <h1>Request access to our private beta</h1>
-  <a href="https://william708.typeform.com/to/vsvBcf"><button>Request Access</button></a>
+  <a href="https://william708.typeform.com/to/vsvBcf"
+    ><button>Request Access</button></a
+  >
 </div>

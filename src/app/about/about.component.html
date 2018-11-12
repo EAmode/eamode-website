@@ -1,77 +1,79 @@
-<section id="banner">
-  <style>
-    h1 {
-      --ea-h1-font-family: 'Georgia';
-    }
-  </style>
-  <div class="banner-main-container">
-    <div class="banner-main-text">
+<div class="ea-card" unset style="padding: 8rem 12vw; margin: 0; background: white;">
+  <div class="ea-card-content header" grid >
+    <div>
       <h1>We build enterprise blueprints</h1>
-      <p class="banner-text">Companies struggle to grapple with the complexity of their operations. Through consulting, software development and our MODE platform we make sure the details are managed and you have the clarity you need to succeed. </p>
+      <p class="banner-text">
+        Companies struggle to grapple with the complexity of their operations.
+        Through consulting, software development and our MODE platform we make
+        sure the details are managed and you have the clarity you need to
+        succeed.
+      </p>
     </div>
-    <div class="banner-main-image">
-      <img class="value-image" src="../../assets/images/bannerMain.svg" alt="">
-
-    </div>
-
+    <img style="width: 50%;" src="../../assets/images/bannerMain.svg" alt="" />
   </div>
+</div>
 
-</section>
+<div class="ea-card" unset style="position: relative; margin: 8rem 10vw;">
+  <div class="ea-card-content">
+    <div style="width:100%;">
+      <h1 style="text-align: center;">Our services</h1>
+      <h2 style="text-align: center;">End-to-end support for your needs.</h2>
+    </div>
+  </div>
+  <div class="ea-card-content" grid style="--ea-card-content-grid: repeat(3, 1fr); grid-gap:2rem;">
+    <a class="ea-card anchor" [routerLink]="['/consulting']"> Consulting </a>
+    <a class="ea-card anchor" [routerLink]="['/software']"> Software Development </a>
+    <a class="ea-card anchor" [routerLink]="['/mode']"> MODE Platform </a>
+  </div>
+  <img style="position: absolute; width:100%; " src="../../assets/images/bricks.svg" alt="" />
+</div>
 
 <section class="services-card">
-  <img  src="../../assets/images/bricks.svg" alt="">
-  <h1>Our services</h1>
-  <h2>End-to-end support for your needs.</h2>
-  <div class="card-container" style="max-width: 1200px; display: flex; align-items: center; flex-wrap: wrap; justify-content: center;">
-    <a class="ea-card" [routerLink]="['/consulting']">
-     Consulting
-    </a>
-    <a class="ea-card" [routerLink]="['/software']">
-      Software Development
-     </a>
-     <a class="ea-card" [routerLink]="['/mode']">
-      MODE Platform
-     </a>
+  <!-- <img src="../../assets/images/bricks.svg" alt="" /> -->
+  <div
+    class="card-container"
+    style="max-width: 1200px; display: flex; align-items: center; flex-wrap: wrap; justify-content: center;"
+  >
   </div>
 </section>
 
+<!--
+  <div class="slack-cta">
+    <div class="offering-text">
+      <h3>Join the conversation</h3>
+      <h2>Our Slack has the latest in greatest in what we're looking at.</h2>
 
-<!-- <div class="slack-cta">
-  <div class="offering-text">
-    <h3>Join the conversation</h3>
-    <h2>Our Slack has the latest in greatest in what we're looking at.</h2>
-
+    </div>
+    <div class="image">
+      <button>
+        <p>Join our Slack </p>
+        <img src="../../assets/images/slack.svg" alt="">
+      </button>
+    </div>
   </div>
-  <div class="image">
-    <button>
-      <p>Join our Slack </p>
-      <img src="../../assets/images/slack.svg" alt="">
-    </button>
-  </div>
-</div> -->
-
+-->
 
 <div class="contact">
-  <img src="../../assets/images/bricks.svg" alt="">
   <h1 style="text-align:center;">Find out how we can support you</h1>
   <a href="https://william708.typeform.com/to/vsvBcf">
-    <button>
-      <p>Get in Touch</p>
-    </button>
-
+    <button><p>Get in Touch</p></button>
   </a>
 </div>
 
-<!-- <section id="team" class="benefits">
-  <div class="title team">
-    <div class="cover"></div>
-    <img src="../assets/images/line.svg" alt="">
-    <span>The eaTeam</span>
-  </div>
-  <main class="benefit-cards">
-    <ea-card></ea-card>
-  </main>
-</section> -->
-<!-- <section class="team">
-  <app-team></app-team>
-</section> -->
+<!--
+  <section id="team" class="benefits">
+    <div class="title team">
+      <div class="cover"></div>
+      <img src="../assets/images/line.svg" alt="">
+      <span>The eaTeam</span>
+    </div>
+    <main class="benefit-cards">
+      <ea-card></ea-card>
+    </main>
+  </section>
+-->
+<!--
+  <section class="team">
+    <app-team></app-team>
+  </section>
+-->

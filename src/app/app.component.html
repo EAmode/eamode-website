@@ -1,8 +1,29 @@
+<!--
+  <eamode-header></eamode-header>
+  <eamode-mobile-nav></eamode-mobile-nav>
+  <div class="main-container">
+  </div>
+  <eamode-footer></eamode-footer>
+-->
 
-<eamode-header></eamode-header>
-<eamode-mobile-nav></eamode-mobile-nav>
-<div class="main-container">
-  <router-outlet></router-outlet>
-</div>
-<eamode-footer></eamode-footer>
-
+<ea-layout>
+  <ea-toolbar shadow flex>
+    <header>
+      <a
+        [routerLink]="['/']"
+        style="width:5rem; display:flex; align-items: center;"
+      >
+        <img style="width:100%;" alt="" src="../assets/images/crown.svg" />
+      </a>
+    </header>
+    <aside>
+      <a [routerLink]="['/consulting']" [routerLinkActive]="['is-active']">Consulting</a>
+      <a [routerLink]="['/software']" [routerLinkActive]="['is-active']">Software</a>
+      <a [routerLink]="['/mode']" [routerLinkActive]="['is-active']">MODE</a>
+    </aside>
+  </ea-toolbar>
+  <ea-main #scrollContainer>
+    <ea-body> <router-outlet></router-outlet> </ea-body>
+    <ea-footer> <p>EA Mode, LLC | 2018</p> </ea-footer>
+  </ea-main>
+</ea-layout>
