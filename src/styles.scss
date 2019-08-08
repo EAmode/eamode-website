@@ -7,69 +7,79 @@
 
   h1,
   h3 {
-    --ea-font-1: 'Georgia';
-    font-family: var(--ea-font-1);
+    font-family: 'Georgia'
   }
   h3 {
-    color: var(--ea-color-background-5);
-    margin: 0 0 12px;
+    color: var(--ea-text-color);
+    margin: 0 0 0.3em;
     font-size: 2.5rem;
   }
 }
 
+eamode-consulting,
+eamode-about,
+eamode-software,
+eamode-mode {
+  width: 100%;
+}
+
 .mode {
-  ea-layout {
-    & ea-toolbar {
-      --ea-toolbar-height: 4rem;
-      box-sizing: content-box;
-    }
+  & ea-layout {
     & ea-main {
-      & ea-body {
-        --ea-main-margin: 0;
-        & .ea-card {
-          & .anchor {
-            margin: 0;
-            height: 10rem;
-            justify-content: center;
-            align-items: center;
-            z-index: 2;
-          }
-          & .ea-card-content {
-            &.header {
-              --ea-card-content-grid: minmax(30%, 50%) 1fr;
-              justify-items: center;
-              align-items: center;
-            }
-          }
-          &.three-col {
-            margin: 8rem 10vw;
-            & .ea-card-content.col {
-              --ea-card-content-grid: repeat(auto-fit, minmax(20rem, 1fr));
-              grid-gap: 2vw;
-            }
-          }
-          & .two-col {
-            margin: 8rem 10vw;
-            grid-gap: 2vw;
-          }
-        }
-        & .contact {
-          position: relative;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          margin: 10rem 0;
-          justify-content: center;
-          & img {
-            position: absolute;
-            height: 20rem;
-            width:100%;
-          }
-          & a {
-            z-index: 2;
-          }
-        }
-      }
+      overflow-x: inherit;
     }
   }
+
+  .ea-card {
+    margin: 0.2em;
+
+    .ea-card-header > div > img {
+      margin: 0.4em;
+    }
+  
+    .ea-card-header > div > h2  {
+      margin: 0.2em
+    }
+
+    .anchor {
+      width: auto;
+      height: 10rem;
+      justify-content: center;
+      align-items: center;
+      font-size: x-large;
+    }
+  }
+
+  .contact {
+    background-image: url('../src/assets/images/bricks.svg');
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem 0;
+    justify-content: center;
+    & a {
+      z-index: 2;
+    }
+  }
+
+  .m-1 {
+    margin: 1em;
+  }    
+  
+  .p-1 {
+    padding: 1em;
+  }
+
+  .flex-space-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-content-center {
+    display: flex;
+    justify-content: center;
+  }
+
 }
