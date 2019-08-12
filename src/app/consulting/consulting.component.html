@@ -1,59 +1,35 @@
-<div
-  class="ea-card"
-  unset
-  style="margin: 4rem 10vw;
-align-items: center;"
->
-  <div
-    class="ea-card-content"
-    grid
-    style="--ea-card-content-grid: repeat(2, 1fr);"
-  >
-    <div class="offering-text-1">
+<div class="ea-card m-1 p-1">
+  <div class="ea-card-content">
+    <div>
       <img src="../../assets/images/clipboard.svg" alt="" />
       <h3>A collective of experts</h3>
-      <p style="    margin-top: -10px;">
+      <p>
         Our collective experience is here to support your needs across key
         aspects of business. We stay on the cutting edge of the latest in
         technology to share our knowledge with you.
       </p>
     </div>
-    <div class="expertise">
-      <div class="ea-card">
-        <div class="ea-card-header">
-          <h2 style="margin:0;">Areas of Expertise</h2>
-        </div>
-        <div class="ea-card-content">
-          <div
-            class="expertise-detail"
-            *ngFor="let name of expertise"
-            style="display: flex; justify-content: space-between; width: 90%;"
-          >
-            <div class="expertise-detail-text">
-              <p style="font-weight: 500;">{{ name.detail }}</p>
-              <p
-                style="width: 100%; margin-top: 0.5rem;     font-size: 1.02rem;
-              ; display: flex;"
-                *ngFor="let text of name.subdetail"
-              >
-                <img
-                  style="width: 0.6rem;"
-                  src="../../assets/images/award.svg"
-                  style="    width: 8%;
-                padding-right: 0.5rem;"
-                  alt=""
-                />{{ text.text }}
-              </p>
-            </div>
-            <img src="../../assets/images/check.svg" alt="" />
+    <div class="ea-card">
+      <div class="ea-card-header">
+        <h2 class="m-1">Areas of Expertise</h2>
+      </div>
+      <div class="ea-card-content">
+        <div id="enterprises" class="flex-space-between" *ngFor="let name of expertise">
+          <div>
+            <p class="expertise-name-detail">{{ name.detail }}</p>
+            <p *ngFor="let text of name.subdetail">
+              <img  src="../../assets/images/award.svg" 
+              style="width: 8%; padding-right: 0.5rem;" alt="" />{{ text.text }}
+            </p>
           </div>
+          <img src="../../assets/images/check.svg" alt="" />
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="ea-card three-col" unset>
+<div class="ea-card m-1 p-1">
   <div class="ea-card-header">
     <div>
       <h3>The Mode Methodology</h3>
@@ -64,38 +40,33 @@ align-items: center;"
     <div class="ea-card" *ngFor="let offering of consulting">
       <div class="ea-card-header">
         <div>
-          <img src="../../assets/images/{{offering.img}}" alt="" />
-          <h2 style="margin:0;">{{ offering.description }}</h2>
+          <img src="../../assets/images/{{offering.img}}" />
+          <h2>{{ offering.description }}</h2>
         </div>
       </div>
       <div class="ea-card-content">
-        <p style="margin-top: 0;">{{ offering.detail }}</p>
+        <p>{{ offering.detail }}</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="ea-card">
-  <div class="ea-card-content header two-col" grid>
-    <div class="offering-text">
+<div class="ea-card m-1 p-1">
+  <div class="ea-card-content" grid>
+    <div>
       <h3>Create your product blueprint</h3>
-      <p style="    margin-top: -10px;">
+      <p>
         Start your project with a roadmap of necessary steps to success. Our
         blueprint will guide you through your development process.
       </p>
     </div>
-    <div class="image">
-      <img
-        class="value-image"
-        src="../../assets/images/documentation.svg"
-        alt=""
-      />
+    <div class="flex-content-center">
+      <img src="../../assets/images/documentation.svg" alt="" />
     </div>
   </div>
 </div>
 
-<div class="contact">
-  <img src="../../assets/images/bricks.svg" alt="" />
+<div class="contact p-1">
   <h1 style="text-align:center;">Find out how we can support you</h1>
   <a href="https://william708.typeform.com/to/vsvBcf">
     <button>Get in Touch</button>
